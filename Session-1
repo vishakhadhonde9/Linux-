@@ -1,2 +1,12 @@
 As we know, there are different operating systems are available such as Windows, mac-os, cent-os, Android OS, iOS, Ubantu and Red-Hat etc.
 Linux is also one of the popular, widely used operating system.
+
+What is Operating System?
+An Operating System or OS is the program which provides an environment to run other applications. 
+OS interacts with hardware which means it acts as mediator between hardware and user interface.
+It manages hardware, software and memory resources.
+
+Why we required Operating System?
+Operating system plays a crucial role in computer system, it allows you to interact with computers without knowing how to speak in computer's language.
+It acts as interpreter or translator as it translates human readable (high level) language into machine level (binary or low level in 0's or 1's format) language.
+
