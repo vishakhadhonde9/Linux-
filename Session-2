@@ -1,12 +1,12 @@
 
-Development of OS-
+*Development of OS-
 
 i) Single user and single tasking at same time.
    e g.-ms-dos.
 ii) Single user and multiple tasking at same time.
 iii) Multiple user and multiple tasking at same time.
 
-Features of Linux -
+*Features of Linux -
 1) Open Source- The source code of Linux OS is openly available to anyone. 
                 Anyone can open it, expand it and modify it as required.
                 Simply open source means have freedom to:
@@ -32,4 +32,15 @@ Features of Linux -
 5) Multiuser Capability- An operating system that allows and grants permission to multiple users to access underlying hardware resources simultaneously.
                 Multiple users can access the same system resources like memory, hard disk, etc. 
 
-6) Multitasking- 
+6) Multitasking- It allows numerous users to work on various tasks at once.
+                 There are two approaches to this:
+                     -Single users doing multiple tasks.
+                     -Multiple users do multiple tasks which includes editing file, and using browsing facility at the same time.
+
+*Linux Distributions-
+
+
+
+
+
+* Difference between 
