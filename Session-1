@@ -25,3 +25,14 @@ it nor can understand it.
 Linux is a kernel and not an operating system and GNU is a collection of free software, these two project collabs give us “Linux” or “GNU/Linux” operating system.
 
 Types of Operating System-
+1) Desktop OS-
+      Operates in Desktop Machines.
+      Used for general purpose tasks such as making presentation,gaming etc.
+      Serve for single user at time.
+2) Server OS- 
+      Operates in Server Machines.
+      Used for hosting purpose.
+      Multiple clients can handle at same time.
+      Server multiple user devices.
+
+
