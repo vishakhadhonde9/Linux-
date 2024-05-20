@@ -1,2 +1,10 @@
 *Architecture Of Linux OS-
+Linux architecture consist of inner most Hardware layer, kernel, shell, and 
+outer application layer.
+
+1) Application Layer: 
+Users interact with the system through varies applications such as office, games, etc.
+These applications run in outer layer of architecture.
+
+2) 
 
