@@ -2,45 +2,46 @@
 Linux architecture consist of inner most Hardware layer, kernel, shell, and 
 outer application layer.
 
-1) Application Layer: 
-Users interact with the system through varies applications such as office, games, etc.
-These applications run in outer layer of architecture.
+## 1) Application Layer:
+- Users interact with the system through varies applications such as office, games, etc.
+- These applications run in outer layer of architecture.
 
-2) Shell:  
-Shell provides environment to run any application.
-It provides interface to the user to interact with hardware.
-Shell act as command interpreter.
-Shell can be of:
-i) Graphical Shell
-ii) Command line Shell
-Examples: k shell, bash shell, sh shell, etc.
+## 2) Shell:
+- Shell provides environment to run any application.
+- It provides interface to the user to interact with hardware.
+- Shell act as command interpreter.
+* Shell can be of:
+  i) Graphical Shell
+  ii) Command line Shell
+- Examples: k shell, bash shell, sh shell, etc.
 
-3) Kernel:
-Kernel is core component of Linux architecture.
-It convert high level language into computer level language.
-Manages hardwares (CPU, Memory and devices).
-It tracks all active processes running on systems.
-In Linux, we use Monolithic kernel.
+## 3) Kernel:
+- Kernel is core component of Linux architecture.
+- It convert high level language into computer level language.
+- Manages hardwares (CPU, Memory and devices).
+- It tracks all active processes running on systems.
+- In Linux, we use Monolithic kernel.
 
-Monolithic kernel vs microlithic kernel-
-
-Monolithic Kernel-
-It manages system's resources between system applications and system hardware.
-Dependencies which are required for system applications are already installed.
-Large in size and provides high execution speed.
-All prerequisites are already installed required to install new packeges.
-It offers memory management, file management and process scheduling.
-
-Microservices-
-In microlithic kernel, only required dependencies are pre-installed.
-lightweight in size
-Application softwares running on microlithic architecture have ability to install its
-own dependencies by itself.
-It is slow in execution.
-
-4) Hardware: 
+# 4) Hardware: 
 All the hardware components such as motherboard, CPU, hard disk, etc. are comes under 
 this layer. 
+
+
+# Monolithic kernel vs microlithic kernel-
+
+## Monolithic Kernel-
+- It manages system's resources between system applications and system hardware.
+- which are required for system applications are already installed.
+- Large in size and provides high execution speed.
+- All prerequisites are already installed required to install new packeges.
+- It offers memory management, file management and process scheduling.
+
+## Microservices-
+- In microlithic kernel, only required dependencies are pre-installed.
+- lightweight in size
+- Application softwares running on microlithic architecture have ability to install its
+own dependencies by itself.
+- It is slow in execution.
 
 
 
