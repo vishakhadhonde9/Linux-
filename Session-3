@@ -22,7 +22,14 @@ Manages hardwares (CPU, Memory and devices).
 It tracks all active processes running on systems.
 In Linux, we use Monolithic kernel.
 
+Monolithic kernel vs microlithic kernel-
 
+Monolithic Kernel-
+It manages system's resources between system applications and system hardware.
+Dependencies which are required for system applications are already installed.
+Large in size and provides high execution speed.
+All prerequisites are already installed required to install new packeges.
+It offer
 
 
 
