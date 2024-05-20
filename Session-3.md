@@ -1,4 +1,4 @@
-*Architecture Of Linux OS-
+# Architecture Of Linux OS-
 Linux architecture consist of inner most Hardware layer, kernel, shell, and 
 outer application layer.
 
