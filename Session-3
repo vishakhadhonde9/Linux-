@@ -38,7 +38,9 @@ Application softwares running on microlithic architecture have ability to instal
 own dependencies by itself.
 It is slow in execution.
 
-4) Hardware:
+4) Hardware: 
+All the hardware components such as motherboard, CPU, hard disk, etc. are comes under 
+this layer. 
 
 
 
