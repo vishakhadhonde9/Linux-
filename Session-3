@@ -10,7 +10,20 @@ These applications run in outer layer of architecture.
 Shell provides environment to run any application.
 It provides interface to the user to interact with hardware.
 Shell act as command interpreter.
+Shell can be of:
+i) Graphical Shell
+ii) Command line Shell
+Examples: k shell, bash shell, sh shell, etc.
 
-3)K
+3) Kernel:
+Kernel is core component of Linux architecture.
+It convert high level language into computer level language.
+Manages hardwares (CPU, Memory and devices).
+It tracks all active processes running on systems.
+In Linux, we use Monolithic kernel.
+
+
+
+
 
 
