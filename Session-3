@@ -6,5 +6,11 @@ outer application layer.
 Users interact with the system through varies applications such as office, games, etc.
 These applications run in outer layer of architecture.
 
-2) 
+2) Shell:  
+Shell provides environment to run any application.
+It provides interface to the user to interact with hardware.
+Shell act as command interpreter.
+
+3)K
+
 
