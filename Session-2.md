@@ -60,6 +60,21 @@
 - OPENSUSE
 
 
-
 # Windows vs Unix vs Linux-
+
+
+|              Windows                |                Unix             |               Linux          |
+|-------------------------------------|---------------------------------|------------------------------|
+|        Proprietary Based            |        Proprietary Based        |   Community Based            |
+|            Purchase                 |             Purchase            |   Free                       |
+| Less Secure                         |   More Secure                   |  More Secure                 |
+| Closed Source                       |     Closed Source               |Open Sourece                  |
+| Heavy                               | Lightweight                     | Lightweight                  |
+| Non-portable                        | Portable                        | Portable                     |
+|   Easy to use (gui)                 | Hard to use(cli)                | Hard to use(cli)             |
+| 80% Desktop                         |  90% Server                     | 90% Server                   |
+| Microlithic Kernel                  | Monolithic Kernel               | Monolithic Kernel            |
+                   
+
+
 
