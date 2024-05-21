@@ -19,7 +19,13 @@ This prompt indicates that the current user is "john," the hostname is "mylinuxm
 - These executable programs can be called using their name as per provided syntax.
 - Commands are nothing but executable programs which perform specific task written in it.
 - These executable programs can be called using their name as per provided syntax.
-  
+  General Syntax:
+
+## [commands] -[options] -[argument] [multiple arguments]
+- Commands- To run the command.
+- Options - To adjust behavior of the commands.
+- Arguments - The behavior, file folder name.
+
 # Basic Commands in Linux-
 ## pwd- Print Working Directory.                                                                                                                                     
 - Displays the current working directory, shwoing the full path to your current  location in the file system.
