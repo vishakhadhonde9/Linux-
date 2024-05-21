@@ -11,3 +11,7 @@
 * current_directory: The path to the current working directory.
 * $ or #: The prompt character, which is usually a dollar sign ('$') for regular users and a hash ('#') for the root user.
 
+## Example- john@mylinuxmachine:~$
+This prompt indicates that the current user is "john," the hostname is "mylinuxmachine," and the current working directory is the user's home directory (~).
+  
+
