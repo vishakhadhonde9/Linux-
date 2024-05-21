@@ -27,11 +27,12 @@ This prompt indicates that the current user is "john," the hostname is "mylinuxm
 ## tty-
 - This command displays current user terminal number. 	
 ## who am i- 
-- Display current user details.                                                                                                      $ whoami                                                                                                                                      your_username
+- Display current user details.
+-  $ whoami your_username
 ## w-
 - Display all current user details with their time schedule.
 - Provides a summary of information about currently logged-in users, including details like usernames, terminal, remote host (if applicable), login time, idle time, JCPU (total time used by all processes attached to the terminal), PCPU (total time used by the current process), and more.
-##  wh <tab> <tab>- 
+##  wh tab tab- 
 - To see similar commands or autocomplete cmd. using the <tab> key for command autocompletion, is a feature of many Linux shells, such as Bash.
 -  When you type a partial command and press the <tab> key twice, the shell attempts to autocomplete or show a list of possible commands or files that match the entered characters.
 ## Clear or ctrl+l - 
@@ -40,9 +41,9 @@ This prompt indicates that the current user is "john," the hostname is "mylinuxm
 - If you scroll up, you'll still see previous commands and their output.
 ## cal  -
 - It displays current month of calendar. This command is used to display a calendar in the terminal. By default, it shows the calendar for the current month.
-## cal <year> - 
+## cal year - 
 - It displays specified year calendar. 	
-## cal <month> <year> - 
+## cal month year - 
 - It displays specific months calendar in particular year 
 ## cal -3- 
 - It displays previous, current and next month's calendar of current year. 
