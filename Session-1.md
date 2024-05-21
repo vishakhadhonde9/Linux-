@@ -1,5 +1,3 @@
-As we know, there are different operating systems are available such as Windows, mac-os, cent-os, Android OS, iOS, Ubantu and Red-Hat etc.
-Linux is also one of the popular, widely used operating system.
 
 # What is Operating System?
 
@@ -18,13 +16,6 @@ was to operate them. Moreover, every computer has a different operating system w
 completely worse to operate on them. Every software was designed for a specific purpose and was 
 unable to operate on other computer. It were extremely costly and normal people neither can afford 
 it nor can understand it.
-
-- **1969 (UNIX)**   -    Ken Thompson and Dennis Ritchie      -    developed at AT&T Bell labs. It is not free.
-- **1983 (GNU Project)**   -    Richard Stallman       -     free version of UNIX
-- **1991 (LINUX)**    -      Linus Torvalds       -      make first Linux kernel which is freely available to anyone.
-
-Linux is a kernel and not an operating system and GNU is a collection of free software, these two project collabs give us “Linux” or “GNU/Linux” operating system.
-
 # Types of Operating System-
 # 1) Desktop OS-
       Operates in Desktop Machines.
@@ -37,5 +28,13 @@ Linux is a kernel and not an operating system and GNU is a collection of free so
       Multiple clients can handle at same time.
       Server multiple user devices.
       Examples- Windows 13, 19, Linux, Ubantu, centos, Fedora
+
+
+- **1969 (UNIX)**   -    Ken Thompson and Dennis Ritchie      -    developed at AT&T Bell labs. It is not free.
+- **1983 (GNU Project)**   -    Richard Stallman       -     free version of UNIX
+- **1991 (LINUX)**    -      Linus Torvalds       -      make first Linux kernel which is freely available to anyone.
+
+Linux is a kernel and not an operating system and GNU is a collection of free software, these two project collabs give us “Linux” or “GNU/Linux” operating system.
+
 
 
