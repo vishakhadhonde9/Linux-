@@ -23,4 +23,49 @@ It lists all available USB devices.
 ## lscpu
 It list processor information.
 ## dmidecode
-It display all hardware information.(root)                                                                                                                                                                                                                                                                                                                                         
+It display all hardware information.(root)     
+## mkdir(make directory)- 
+- Used to create directories (folders).
+- It allows users to create one or more directories with specified names. mkdir is a fundamental utility for managing the directory structure in a Linux file system.
+### Creating a Single Directory:
+mkdir my_directory
+### Creating Multiple Directories:
+mkdir dir1 dir2 dir3
+## rmdir (Remove Directory)- 
+- Command is used to remove empty directories in Linux.
+rmdir directory_name
+## mv (Move)-
+Command in Linux is used to move or rename files and directories 
+mv file_name destination/
+## cp (Copy)- 
+- Command in Linux is used to copy files and directories from one location to another.
+- It can be used to duplicate files and create backups.
+## touch-
+- Used to create empty files and update the access and modification timestamps of existing files.
+- touch new_file.txt
+- touch file1.txt file2.txt file3.txt
+- touch existing_file.txt
+- This command updates the access and modification timestamps of the existing file without modifying its content.
+## cat- 
+- display the content of files and concatenate file.
+- displaying the content of files and concatenating files, but you can use it in combination with input redirection to create a file with data
+- cat filename.txt- Display content
+- cat file1.txt file2.txt- Concatenate
+- cat file1.txt > newfile- copy one file into another
+## echo- 
+- for printing messages or information to the console
+## man- 
+### Mannual page- 
+- It is form of documentation in Unix-like operating systems that provides detailed information about a specific command, utility, or function.
+-  These manual pages serve as a reference guide, offering users comprehensive information on how to use a particular command or program.
+- Access man page by using man command 
+## info- 
+same as manual page
+  
+
+
+
+
+
+
+
