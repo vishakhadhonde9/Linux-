@@ -9,13 +9,7 @@
 - Operating system plays a crucial role in computer system, it allows you to interact with computers without knowing how to speak in computer's language.
 - It acts as interpreter or translator as it translates human readable (high level) language into machine level (binary or low level in 0's or 1's format) language.
 
-# History of Linux-
 
-In earlier days, computers were as big as houses or parks. So, you can imagine how difficult it 
-was to operate them. Moreover, every computer has a different operating system which made it 
-completely worse to operate on them. Every software was designed for a specific purpose and was 
-unable to operate on other computer. It were extremely costly and normal people neither can afford 
-it nor can understand it.
 # Types of Operating System-
 # 1) Desktop OS-
       Operates in Desktop Machines.
@@ -29,7 +23,13 @@ it nor can understand it.
       Server multiple user devices.
       Examples- Windows 13, 19, Linux, Ubantu, centos, Fedora
 
+# History of Linux-
 
+In earlier days, computers were as big as houses or parks. So, you can imagine how difficult it 
+was to operate them. Moreover, every computer has a different operating system which made it 
+completely worse to operate on them. Every software was designed for a specific purpose and was 
+unable to operate on other computer. It were extremely costly and normal people neither can afford 
+it nor can understand it.
 - **1969 (UNIX)**   -    Ken Thompson and Dennis Ritchie      -    developed at AT&T Bell labs. It is not free.
 - **1983 (GNU Project)**   -    Richard Stallman       -     free version of UNIX
 - **1991 (LINUX)**    -      Linus Torvalds       -      make first Linux kernel which is freely available to anyone.
