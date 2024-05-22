@@ -21,7 +21,7 @@
       Used for hosting purpose.
       Multiple clients can handle at same time.
       Server multiple user devices.
-      Examples- Windows 13, 19, Linux, Ubantu, centos, Fedora
+      Examples- Windows 1.3 Server, 1.9 Server, Linux, Ubantu, centos, Fedora
 
 # History of Linux-
 
