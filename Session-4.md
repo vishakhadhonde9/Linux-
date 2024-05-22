@@ -25,7 +25,13 @@ This prompt indicates that the current user is "john," the hostname is "mylinuxm
 - Commands- To run the command.
 - Options - To adjust behavior of the commands.
 - Arguments - The behavior, file folder name.
-
+# sudo (Super User DO)- 
+- Generally used as a prefix for some commands that only superusers are allowed to run.
+- If you prefix any command with “sudo”, it will run that command with elevated privileges or in other words allow a user with proper permissions to execute a command as another user, such as the superuser. -
+- This is the equivalent of the “run as administrator” option in Windows. The option of sudo lets us have multiple administrators.
+# su (short for substitute or switch user) 
+- allows you to run commands with another user’s privileges.
+- using su is the simplest way to switch to the administrative account in the current login session. 
 # Basic Commands in Linux-
 ## pwd- Print Working Directory.                                                                                                                                     
 - Displays the current working directory, shwoing the full path to your current  location in the file system.
