@@ -2,6 +2,9 @@
 In Linux, files are well managed using file management system. Linux File Management System manage files in hierarchical structure where, “/” (slash) is main directory or root directory (root node in hierarchy). All other directories comes beneath “/” directory. 
 ## /- 
 - root of file system
+- Every single file and directory start from the root directory.
+- The only root user has the right to write under this directory.
+- /root is the root user’s home directory, which is not the same as /
 ## /root- 
 - Home directory of root user. In this directory, root user can store its personal files.
 - Every single file and directory start from root dir.
