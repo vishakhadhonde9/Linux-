@@ -34,7 +34,8 @@ This prompt indicates that the current user is "john," the hostname is "mylinuxm
 - This command displays current user terminal number. 	
 ## who am i- 
 - Display current user details.
--  $ whoami your_username
+## whoami-
+- It simply prints the username of the currently logged-in user.
 ## w-
 - Display all current user details with their time schedule.
 - Provides a summary of information about currently logged-in users, including details like usernames, terminal, remote host (if applicable), login time, idle time, JCPU (total time used by all processes attached to the terminal), PCPU (total time used by the current process), and more.
