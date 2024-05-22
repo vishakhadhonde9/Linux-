@@ -52,7 +52,16 @@ nano [filename].[extension]
 * :w 	save and stay in file
 * :wq or :x 	save and quit
 * :q! 	quit without saving forcefully
-* :wq! 	save and quit forcefully 	
+* :wq! 	save and quit forcefully
+### Visual Mode-
+- this mode is used for selection. 
+* v - Select character by character 	
+* V - Select line by line 	
+* ctrl+v - Select block 	
+* y,d,c - for copy, delete, and cut selected area 	
+
+
+
 	
 
  
