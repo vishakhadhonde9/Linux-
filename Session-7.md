@@ -32,7 +32,31 @@ nano <filename>.<extension>
 * Insert mode 
 * Ex-mode 
 * Command mode 
-* Visual mode 
+* Visual mode
+- Syntax- 
+* vim <filename>  
+### Command Mode-
+- this is default mode. Press esc to exit from any mode and enter into command mode.
+### Insert Mode-
+- you can actually insert or edit text. 
+### Ex-mode-
+- special executing mode.
+- Use ‘:’ to enter into ex-mode. 
+### Visual Mode- 
+- this mode is used for selection.
+- this mode allows you to select and manipulate text.
+- you can enter Visual mode by pressing ‘v’ From Visual mode, you can then perform operations like copying, cutting, or replacing the selected text.
+### Ex-mode-
+- special executing mode 
+* :q 	quit without saving
+* :w 	save and stay in file
+* :wq or :x 	save and quit
+* :q! 	quit without saving forcefully
+* :wq! 	save and quit forcefully 	
+	
+
+ 
+
 
 
 
