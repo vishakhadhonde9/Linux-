@@ -2,7 +2,6 @@
 # Development of OS-
 
 - i) Single user and single tasking at same time.
-   e g.-ms-dos.
 - ii) Single user and multiple tasking at same time.
 - iii) Multiple user and multiple tasking at same time.
 
