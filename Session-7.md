@@ -24,7 +24,7 @@
 ### 1. nano: - 
 - nano editor is easy to use since it provides simple features to edit data from files.
 - Syntax- 
-nano <filename>.<extension> 
+nano [filename].[extension] 
 ### 2. vi and vim: -
 - vi (virtual interface) and vim (virtual interface modified) are most commonly used editors.
 - vi and vim both editors are same where as vim is the advance version of vi editor.
@@ -34,7 +34,7 @@ nano <filename>.<extension>
 * Command mode 
 * Visual mode
 - Syntax- 
-* vim <filename>  
+* vim [filename]  
 ### Command Mode-
 - this is default mode. Press esc to exit from any mode and enter into command mode.
 ### Insert Mode-
