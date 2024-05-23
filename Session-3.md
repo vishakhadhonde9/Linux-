@@ -15,6 +15,7 @@ outer application layer.
 - Shell provides environment to run any application.
 - It provides interface to the user to interact with hardware.
 - Shell act as command interpreter.
+- It convert high level language into computer level language.
 * Shell can be of:
   i) Graphical Shell
   ii) Command line Shell
@@ -22,8 +23,8 @@ outer application layer.
 
 ## 3) Kernel:
 - Kernel is core component of Linux architecture.
-- It convert high level language into computer level language.
 - Manages hardwares (CPU, Memory and devices).
+- It controls process management, memory management and device management.
 - It tracks all active processes running on systems.
 - In Linux, we use Monolithic kernel.
 
