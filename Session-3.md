@@ -27,7 +27,7 @@ outer application layer.
 - It tracks all active processes running on systems.
 - In Linux, we use Monolithic kernel.
 
-# 4) Hardware: 
+## 4) Hardware: 
 All the hardware components such as motherboard, CPU, hard disk, etc. are comes under 
 this layer. 
 
