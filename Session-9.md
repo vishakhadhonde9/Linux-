@@ -53,10 +53,19 @@
 - Specified in /etc/passwd
 - Secondary group- any additional group
 - Specified in /etc/group
-- groupadd – ‘groupadd’ command is use to add secondary or supplementary group in system. Group information are stored in /etc/group file. 
+### groupadd –
+- ‘groupadd’ command is use to add secondary or supplementary group in system. Group information are stored in /etc/group file. 
 * Syntax- 
 - groupadd [groupname]
-- groupmod [groupname]
+### groupmod -
+- Modify existing group with customize setting,
+* Syntax-
+- groupmod <option> <parameter> <groupname>
+# Options, 
+- -g :- Group id
+- -n :- Group Name
+- -o :- Non uniqu
+### groupdel-
 - groupdel [groupname]
 # Password Management-
 ## gpasswd –
