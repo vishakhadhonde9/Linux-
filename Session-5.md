@@ -8,15 +8,18 @@
 ## hostnamectl
 Show detailed information about system
 ## uname -a
-It displays operating system kernel name.
+#### It displays:
+- Kernel Version: This includes information about the kernel version running on the system.
+- Hostname: This displays the name of the system on the network.
+- Kernel Release: This provides the release number of the kernel.
+- Kernel Architecture: This indicates the system's architecture, such as x86_64 for 64-bit systems or i686 for 32-bit systems.
+- Operating System: This specifies the name of the operating system.
 ## uname -r
-It display all information regarding system,
+It display kernel release infformation.
 ## lsusb
 It lists all available USB devices.
 ## lscpu
-It list processor information.
-## dmidecode
-It display all hardware information.(root)     
+It list processor information. 
 ## mkdir(make directory)- 
 - Used to create directories (folders).
 - It allows users to create one or more directories with specified names. mkdir is a fundamental utility for managing the directory structure in a Linux file system.
