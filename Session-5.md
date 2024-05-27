@@ -16,8 +16,6 @@ Show detailed information about system
 - Operating System: This specifies the name of the operating system.
 ## uname -r
 It display kernel release infformation.
-## lsusb
-It lists all available USB devices.
 ## lscpu
 It list processor information. 
 ## mkdir(make directory)- 
