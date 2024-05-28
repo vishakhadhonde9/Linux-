@@ -18,6 +18,14 @@ It display kernel release information.
 - Kernel Release: This provides the release number of the kernel.
 - Kernel Architecture: This indicates the system's architecture, such as x86_64 for 64-bit systems or i686 for 32-bit systems.
 - Operating System: This specifies the name of the operating system.
+## ls(List)-
+* It is used to list files and directories in a directory. It is used to list files and directories in a directory.
+- l: Long format. Displays detailed information about files, including permissions, owner, group, size, and modification time.
+- a: All entries. Shows hidden files (those starting with a dot .).
+- h: Human-readable. Prints file sizes in a human-readable format (e.g., KB, MB, GB).
+- R: Recursive. Lists subdirectories recursively. It is used to display files and directories in reverse order. It reverses the order of the sorting, showing the files or directories in descending order based on their names.
+- t: Sort by modification time, newest first.
+- S: Sort by file size, largest first.
 
 ## mkdir(make directory)- 
 - Used to create directories (folders).
