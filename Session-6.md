@@ -41,9 +41,7 @@ In Linux, files are well managed using file management system. Linux File Manage
 - /dev directory stores device information and their block files.
 ## /tmp-
 - It stores temporary files. It stores temporary data for 10 days.
-## /proc-
-- Processes information. This directory also stores RAM and CPU related 
-information
+
 
 
 
