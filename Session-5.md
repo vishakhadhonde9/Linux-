@@ -31,7 +31,8 @@ It display kernel release information.
 - Used to create directories (folders).
 - It allows users to create one or more directories with specified names. mkdir is a fundamental utility for managing the directory structure in a Linux file system.
 ### Creating a Single Directory:
-mkdir my_directory
+- mkdir my_directory
+- mkdir dir{1..10}
 ### Creating Multiple Directories:
 mkdir dir1 dir2 dir3
 ## rmdir (Remove Directory)- 
