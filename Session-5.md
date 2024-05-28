@@ -110,8 +110,9 @@ same as manual page
 - Append the output of a command to a file, without overwriting existing content
 - command > filename.txt
 
-  
-
+## Piping (|):
+- redirect the output of one command as input to another command.
+command1 | command2
 
 
 
