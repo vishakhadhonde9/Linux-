@@ -15,7 +15,7 @@ Show detailed information about system
 - Kernel Architecture: This indicates the system's architecture, such as x86_64 for 64-bit systems or i686 for 32-bit systems.
 - Operating System: This specifies the name of the operating system.
 ## uname -r
-It display kernel release infformation.
+It display kernel release information.
 ## lscpu
 It list processor information. 
 ## mkdir(make directory)- 
