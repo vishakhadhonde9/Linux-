@@ -7,6 +7,10 @@
 # Commands To View System Information-                                                                                                                           
 ## hostnamectl
 Show detailed information about system
+## uname
+- It display Operating System name.
+## uname -r
+It display kernel release information.
 ## uname -a
 #### It displays:
 - Kernel Version: This includes information about the kernel version running on the system.
@@ -14,10 +18,7 @@ Show detailed information about system
 - Kernel Release: This provides the release number of the kernel.
 - Kernel Architecture: This indicates the system's architecture, such as x86_64 for 64-bit systems or i686 for 32-bit systems.
 - Operating System: This specifies the name of the operating system.
-## uname -r
-It display kernel release information.
-## lscpu
-It list processor information. 
+
 ## mkdir(make directory)- 
 - Used to create directories (folders).
 - It allows users to create one or more directories with specified names. mkdir is a fundamental utility for managing the directory structure in a Linux file system.
