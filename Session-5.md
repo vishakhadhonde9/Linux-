@@ -10,7 +10,7 @@ Show detailed information about system
 ## uname -a
 #### It displays:
 - Kernel Version: This includes information about the kernel version running on the system.
-- Hostname: This displays the name of the system on the network.
+- Hostname: This displays the name of the system on the network (fully qualifiled).
 - Kernel Release: This provides the release number of the kernel.
 - Kernel Architecture: This indicates the system's architecture, such as x86_64 for 64-bit systems or i686 for 32-bit systems.
 - Operating System: This specifies the name of the operating system.
