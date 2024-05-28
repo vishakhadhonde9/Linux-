@@ -23,8 +23,7 @@ It display kernel release information.
 * It is used to list files and directories in a directory. It is used to list files and directories in a directory.
 - l: Long format. Displays detailed information about files, including permissions, owner, group, size, and modification time.
 - a: All entries. Shows hidden files (those starting with a dot .).
-- h: Human-readable. Prints file sizes in a human-readable format (e.g., KB, MB, GB).
-- R: Recursive. Lists subdirectories recursively. It is used to display files and directories in reverse order. It reverses the order of the sorting, showing the files or directories in descending order based on their names.
+- r: Recursive. It is used to display files and directories in reverse order. It reverses the order of the sorting, showing the files or directories in descending order based on their names.
 - t: Sort by modification time, newest first.
 - S: Sort by file size, largest first.
   
@@ -99,8 +98,19 @@ It display kernel release information.
 ## info- 
 same as manual page
   
+# Redirectors-
+- Redirectors are used to write terminal output into file.
+- Output, generated from any command, on terminal can be transferred into existing file.
+- If file does not exist, automatically new file will be created.
+## Single Redirector (>):
+- Redirect the output of a command to a file, overwriting the file if it exists.
+- command > filename.txt
 
+## Double Redirector (>>):
+- Append the output of a command to a file, without overwriting existing content
+- command > filename.txt
 
+  
 
 
 
