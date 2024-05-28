@@ -36,10 +36,10 @@ mkdir my_directory
 mkdir dir1 dir2 dir3
 ## rmdir (Remove Directory)- 
 - Command is used to remove empty directories in Linux.
-rmdir directory_name
+- rmdir directory_name
 ## mv (Move)-
-Command in Linux is used to move or rename files and directories 
-mv file_name destination/
+- Command in Linux is used to move or rename files and directories 
+- mv file_name destination/
 ## cp (Copy)- 
 - Command in Linux is used to copy files and directories from one location to another.
 - It can be used to duplicate files and create backups.
