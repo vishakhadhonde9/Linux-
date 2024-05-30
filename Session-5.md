@@ -25,7 +25,7 @@ It display kernel release information.
 - a: All entries. Shows hidden files (those starting with a dot .).
 - r: Recursive. It is used to display files and directories in reverse order. It reverses the order of the sorting, showing the files or directories in descending order based on their names.
 - t: Sort by modification time, newest first.
-- S: Sort by file size, largest first.
+- S: Shows files or directories with its size.
   
 # Directory-
 
