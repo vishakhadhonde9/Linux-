@@ -3,14 +3,14 @@
 - Linux is said to be secure because one user cannot access files of other user without its permission.
 - Each user is assigned an ID that is unique for each user in the operating system.
 ## There are three types of user:
-### 1. Super user: 
+### 1. System user: 
+- System accounts are used by the services in Linux system.
+- These accounts or users generally created when services are installed in system. 
+### 2. Super user: 
 - Super users are those users who has all privileges of Linux system.
 - On all Linux systems, by default there is the user root, also known as the super user.
 - This account is used for managing Linux. Root, for instance, can create other user accounts on the system.
 - For some tasks, root privileges are required. Some examples are installing software, managing users, and creating partitions on disk devices. 
-### 2. System user: 
-- System accounts are used by the services in Linux system.
-- These accounts or users generally created when services are installed in system. 
 ### 3. Standard user: 
 - local user accounts or standard user accounts are for the people who need to work on a system and who need limited access to the resources on that system.
 - These user accounts typically have a password that is used for authenticating the user to the system.
@@ -19,7 +19,10 @@
 - User can be added by root user or using root user’s privileges.
 - Whenever new user has been added, some files get affected. These files holds user accounts related information.                                                                                                                                                                                   -Also whenever new user is created, by default, its home directory and mail account also has been generated.  -New users are created using some skeleton files located in /etc/skel directory. These files are hidden and copied into home directory of new user.
 * useradd [username]- Create user acc
-* usermod [username]- modify or changes exiting user acc 
+* usermod [username]- modify or changes exiting user acc
+- l- login- Change the login name of the user. This changes the username of the user account.
+-  usermod -l new_username old_username
+
 * userdel [username]- delete exiting user acc
 # Password Management-
 ## passwd: 
@@ -37,7 +40,12 @@
 - passwd [user_name] - assign or change other user’s password by root user.
 # View and change password policy-
 - chage – ‘chage’ (change age) command use to view or modify password policy of user.
-- chage <option> <parameter> <username> 
+* chage <option> <parameter> <username>
+- Last password change -> the date when the password was changed most recently.
+- Password expires -> the date when the password will expire.
+- Password inactive -> how many days the account will remain inactive after the password is expired.
+- Minimum number of days between password change -> the minimum day break required between two password changes.
+- Maximum number of days between password change -> how many days you are left to change your current password.
 
 ### Options:
 - -l :- list / view password policy.
@@ -57,16 +65,24 @@
 - ‘groupadd’ command is use to add secondary or supplementary group in system. Group information are stored in /etc/group file. 
 * Syntax- 
 - groupadd [groupname]
+### usermod to add user in group-
+- usermod option groupname username
+### option-
+- -G -groupname
+- -a - append
 ### groupmod -
 - Modify existing group with customize setting,
 * Syntax-
-- groupmod <option> <parameter> <groupname>
+- groupmod option parameter groupname
 # Options, 
-- -g :- Group id
-- -n :- Group Name
-- -o :- Non uniqu
+* -g :- Group id
+- sudo groupmod -g new_gid groupname
+* -n :- Group Name
+- sudo groupmod -n new_groupname old_groupname
+ 
 ### groupdel-
 - groupdel [groupname]
+
 # Password Management-
 ## gpasswd –
 - ‘gpasswd’ command is use to give password to group.
@@ -74,8 +90,13 @@
 * gpasswd <option> <parameter> <groupname> 
 ### Options:
 - -a :- Add members in group
+- gpasswd -a username groupname
+
 - -M :- Set list of members in group
+- gpasswd -M username1,username2,...,usernameN groupname
+
 - -A :- Assign user as group admin 
+gpasswd -A username groupname
 
 
 
