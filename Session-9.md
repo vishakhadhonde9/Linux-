@@ -96,7 +96,11 @@
 - gpasswd -M username1,username2,...,usernameN groupname
 
 - -A :- Assign user as group admin 
-gpasswd -A username groupname
+- gpasswd -A username groupname
+  
+- -d :- To remove user from group
+- gpasswd -d username groupname
+
 
 
 
