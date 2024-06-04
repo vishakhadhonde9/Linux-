@@ -54,7 +54,6 @@
 - -W :- number of days of warning.
 - -I :- number of inactivation days.
 - -E :- Expiry date of user account.
-- -d :- force to change password!
 # Group Management-
 - Group is collection of user accounts that share set of permissions.
 - Primary Group- Every user acc associated with primary group.
