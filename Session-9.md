@@ -17,9 +17,11 @@
 # Adding New User-
 - Adding new local user means creating user account.                                                                                                       
 - User can be added by root user or using root user’s privileges.
-- Whenever new user has been added, some files get affected. These files holds user accounts related information.                                                                                                                                                                                   -Also whenever new user is created, by default, its home directory and mail account also has been generated.  -New users are created using some skeleton files located in /etc/skel directory. These files are hidden and copied into home directory of new user.
-* useradd [username]- Create user acc
-* usermod [username]- modify or changes exiting user acc
+- Whenever new user has been added, some files get affected. These files holds user accounts related information.                                           - Also whenever new user is created, by default, its home directory has been generated.
+- 
+* useradd [username]- Create user account.
+  
+* usermod [username]- modify or changes exiting user acc.
 - l- login- Change the login name of the user. This changes the username of the user account.
 -  usermod -l new_username old_username
 
