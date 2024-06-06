@@ -88,18 +88,23 @@
 ## gpasswd –
 - ‘gpasswd’ command is use to give password to group.
 - It also can be used to add members and assign admin to the group.
+- Specified in /etc/gshadow
 * gpasswd <option> <parameter> <groupname> 
 ### Options:
 - -a :- Add members in group
+#### Syntax-
 - gpasswd -a username groupname
 
 - -M :- Set list of members in group
+#### Syntax-
 - gpasswd -M username1,username2,...,usernameN groupname
 
-- -A :- Assign user as group admin 
+- -A :- Assign user as group admin
+#### Syntax-
 - gpasswd -A username groupname
   
 - -d :- To remove user from group
+#### Syntax-
 - gpasswd -d username groupname
 
 
