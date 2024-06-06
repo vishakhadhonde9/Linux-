@@ -59,7 +59,7 @@
 # Group Management-
 - Group is collection of user accounts that share set of permissions.
 - Primary Group- Every user acc associated with primary group.
-- Specified in /etc/passwd
+- Specified in /etc/gpasswd
 - Secondary group- any additional group
 - Specified in /etc/group
 ### groupadd –
