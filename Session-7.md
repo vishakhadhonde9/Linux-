@@ -37,6 +37,37 @@ nano [filename].[extension]
 * vim [filename]  
 ### Command Mode-
 - this is default mode. Press esc to exit from any mode and enter into command mode.
+
+  
+| Command | Description |
+|---------|-------------|
+| `dd` | Delete current line. |
+| `<n>dd` | Delete `<n>` lines from the current line. |
+| `dw` | Delete from the current cursor position to the end of the current word. |
+| `<n>dw` | Delete `<n>` words from the current cursor position. |
+| `yy` | Yank (copy) current line. |
+| `<n>yy` | Yank `<n>` lines starting from the current line. |
+| `yw` | Yank current word. |
+| `<n>yw` | Yank `<n>` words starting from the current word. |
+| `cc` | Cut current line and enter insert mode. |
+| `<n>cc` | Cut `<n>` lines and enter insert mode. |
+| `cw` | Cut from the current cursor position to the end of the current word and enter insert mode. |
+| `<n>cw` | Cut `<n>` words starting from the current cursor position and enter insert mode. |
+| `p` | Paste the last yanked or deleted text after the cursor position. |
+| `s` | Remove current character and enter insert mode. |
+| `S` | Remove current line and enter insert mode. |
+| `u` | Undo the last change. |
+| `Ctrl+r` | Redo the last undone change. |
+| `H` | Move cursor to the top line of the screen. |
+| `M` | Move cursor to the middle line of the screen. |
+| `L` | Move cursor to the bottom line of the screen. |
+| `G` | Move cursor to the end of the file. |
+| `gg` | Move cursor to the beginning of the file. |
+| `<n>gg` | Move cursor to line `<n>` in the file. |
+| `/<word>` | Search for `<word>` in the file. |
+| `n` | Move to the next occurrence of the search result. |
+| `N` | Move to the previous occurrence of the search result. |
+
 ### Insert Mode-
 - you can actually insert or edit text. 
 ### Ex-mode-
