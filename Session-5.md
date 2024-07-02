@@ -68,6 +68,12 @@ It display kernel release information.
 - cat filename.txt- Display content
 - cat file1.txt file2.txt- Concatenate
 - cat file1.txt > newfile- copy one file into another
+## rm-
+- used to remove files.
+- rm [option] filename
+- -f : forcefully
+- -v : verbosely
+- -r : recursively.
 
 ## more –
 - more command provides line by line navigation and page by page navigation in downward direction but, upward scrolling not possible.
