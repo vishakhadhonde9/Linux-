@@ -64,7 +64,7 @@ This prompt indicates that the current user is "john," the hostname is "mylinuxm
 - It shows current date and time.
 - This output includes the day of the week, the month, the day of the month, the time, and the Coordinated Universal Time (UTC) offset.
 - The exact output may vary depending on your system's configuration.
- ## date -s “DD MM YYYY HH:MM:SS “-
+ ## date -s “YYYY/MM/DD HH:MM:SS “-
 - It set date and time. The date -s option is used to set the date and time.
 ## reboot OR init 6 -
 To restart the system 	
