@@ -84,6 +84,9 @@ nano [filename].[extension]
 * :wq or :x 	save and quit
 * :q! 	quit without saving forcefully
 * :wq! 	save and quit forcefully
+* :/<word>   Highlight word/string/character
+* :%s/<old>/<new>/g Find and replace old word with new word
+
 ### Visual Mode-
 - this mode is used for selection. 
 * v - Select character by character 	
