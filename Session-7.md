@@ -19,7 +19,7 @@
 - This Open Office is specially developed for Linux based operating systems.
 ## Command line editor: 
 - Command line editor uses command line interface.
-- These editors are much master and consumes less memory than any graphical editors.
+- These editors are much faster and consumes less memory than any graphical editors.
 - Following are some well-known command line editors:
 ### 1. nano: - 
 - nano editor is easy to use since it provides simple features to edit data from files.
