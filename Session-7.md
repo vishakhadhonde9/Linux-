@@ -86,7 +86,7 @@ nano [filename].[extension]
 * :wq! 	save and quit forcefully
 * :/<word>   Highlight word/string/character
 * :nohl   remove highlight
-* :%s/<old>/<new>/g   find and replace old word with new word
+* :%s/old/new/g   find and replace old word with new word
 * :set nu   set line numbers
 * :set nonu   remove line numbers
 
