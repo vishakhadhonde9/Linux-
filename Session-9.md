@@ -17,14 +17,31 @@
 # Adding New User-
 - Adding new local user means creating user account.                                                                                                       
 - User can be added by root user or using root user’s privileges.
-- Whenever new user has been added, some files get affected. These files holds user accounts related information.                                           - Also whenever new user is created, by default, its home directory has been generated.
-- 
-* useradd [username]- Create user account.
+- Whenever new user has been added, some files get affected. These files holds user accounts related information.
+- Also whenever new user is created, by default, its home directory has been generated.
   
-* usermod [username]- modify or changes exiting user acc.
-- l- login- Change the login name of the user. This changes the username of the user account.
--  usermod -l new_username old_username
+* useradd [username]- Create user account.
 
+### Files affected by newly added user:
+- /etc/passwd: It store user profile related information, 
+- /etc/shadow: It stores user password policies
+- /etc/group: It store group information.
+- /etc/gshadow: Stores group password and member’s list.
+
+# To modify user-
+* usermod [username]- modify or changes exiting user acc.
+* usermod option parameters username 
+#### Options, 
+- -u :- user id
+- -g :- primary group 
+- -c :- Comment 
+- -s :- login shell 
+- -G :- secondary group 
+- -l :- login name 
+- -L :- lock user password 
+- -U :- unlock user password 
+
+  
 * userdel [username]- delete exiting user acc
 # Password Management-
 ## passwd: 
