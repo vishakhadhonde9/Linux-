@@ -41,8 +41,9 @@
 - -L :- lock user password 
 - -U :- unlock user password 
 
-# userdel [username]- 
+# To Remove user-
 - delete exiting user acc
+* userdel [username]
 - To remove a user and their home directory
 * sudo userdel -r username
 
