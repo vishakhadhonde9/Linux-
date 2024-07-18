@@ -41,8 +41,11 @@
 - -L :- lock user password 
 - -U :- unlock user password 
 
-  
-* userdel [username]- delete exiting user acc
+# userdel [username]- 
+- delete exiting user acc
+- To remove a user and their home directory
+* sudo userdel -r username
+
 # Password Management-
 ## passwd: 
 - Password is the secret phrase that can be used to login to the system.
