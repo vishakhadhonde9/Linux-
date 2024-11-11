@@ -1,10 +1,3 @@
-
-# Development of OS-
-
-- i) Single user and single tasking at same time.
-- ii) Single user and multiple tasking at same time.
-- iii) Multiple user and multiple tasking at same time.
-
 # Features of Linux -
 ## 1) Open Source- 
                The source code of Linux OS is openly available to anyone. 
